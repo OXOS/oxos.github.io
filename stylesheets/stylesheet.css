@@ -1,9 +1,4 @@
 body {
-  background-attachment: fixed;
-  background-color: white;
-  background-image: url(/images/oxos-logo.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 .page-header h1 {
