@@ -21,7 +21,6 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 <body>
 
@@ -141,22 +140,22 @@
     <a title="International Child Care Fund via Vim" href="http://www.vim.org/sponsor/index.php"><img src="/images/logo-vim.svg" height="45px" alt="VIM" /></a>
   </div>
 </div>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+      function trackOutboundLink(event){
+        var url = event.currentTarget.href;
+        try {
+          _gaq.push(['_trackEvent', 'Outbound Links' , url]);
+        } catch(err){}
 
-<script>
-  function trackOutboundLink(event){
-    var url = event.currentTarget.href;
-    try {
-      _gaq.push(['_trackEvent', 'Outbound Links' , url]);
-    } catch(err){}
+        setTimeout(function() {
+          document.location.href = url;
+        }, 100);
 
-    setTimeout(function() {
-      document.location.href = url;
-    }, 100);
+        return false;
+      }
 
-    return false;
-  }
-
-  $(document).on('click', 'a[href]', trackOutboundLink);
-</script>
+      $(document).on('click', 'a[href]', trackOutboundLink);
+    </script>
 </body>
 </html>
