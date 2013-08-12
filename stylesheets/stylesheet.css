@@ -9,4 +9,5 @@ body {
 
 body > .container {
   width: 800px;
+  margin-bottom: 2em;
 }
