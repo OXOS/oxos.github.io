@@ -1,4 +1,6 @@
 body {
+  /* background-image: url('/images/body-bg.png'); */
+  /* background-repeat: repeat; */
 }
 
 .page-header h1 {
@@ -6,10 +8,5 @@ body {
 }
 
 body > .container {
-  margin-top: 2em;
   width: 800px;
-}
-
-h2 {
-  margin-top: 2em;
 }
