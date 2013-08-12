@@ -20,6 +20,10 @@ body > .container {
   box-shadow: 0 1px 1px rgba(0,0,0,0.05);
 }
 
-.panel {
-  background-color: #eee;
+#recommendations blockquote {
+  border-left: none;
+}
+
+#featured-app img.screenshot {
+  width: 430px;
 }
