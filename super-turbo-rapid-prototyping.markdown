@@ -20,13 +20,12 @@ Often it doesn't even have to be an application, an AdWords campaign and a [pre-
 Why Ruby on Rails?
 ---------------------------------------------------
 
-It's now a mature framework, with vibrant community and [huge pool of reusable plugins](https://www.ruby-toolbox.com/categories/by_name). It has an established set of pratcies often called The Rails Way, so any developer warth their salt will feel at home when joining the project. With common set of practices accepted by wide Ruby on Rails community it's also easy to have code quality of your application assessed by third party consultants.
+It's a mature and battle-tested framework, with vibrant community and [huge pool of reusable plugins](https://www.ruby-toolbox.com/categories/by_name). It has an established set of pratcies often called The Rails Way, so any developer warth their salt will feel at home when joining the project. With common set of practices accepted by wide Ruby on Rails community it's also easy to have code quality of your application assessed by third party consultants.
 
-To be continued...
-------------------
+Requirements
+---------------------------------------------------
 
-* When is Ruby on Rails not the right choice for you?
-* Is it throw-away work? Can it evolve into a polished product?
+You need to be available online for at least one hour a day for real-time collaboration.
 
 <div class='jumbotron'>
 <h2>Questions?</h2>
