@@ -1,5 +1,5 @@
 body {
-  background-image: url('/images/body-bg.png');
+  background-image: url('../images/body-bg.png');
   background-repeat: repeat;
   font-family: "myriad-pro",sans-serif;
 }
