@@ -7,35 +7,15 @@
   <link rel="stylesheet" href="./stylesheets/stylesheet.css" >
 
   <meta description="Bespoke web applications. Super-Turbo-Rapid-Prototyping™ with Ruby on Rails.">
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-5782625-10']);
-    _gaq.push(['_setDomainName', 'www.oxos.pl']);
-    _gaq.push(['_setAllowLinker', true]);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-  <script type="text/javascript" src="//use.typekit.net/mnd8hau.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 
 <div class="container">
-
   <header class="page-header">
     <h1>
       <a href='http://www.oxos.pl'><img src='./images/logo-medium.png' alt="OXOS.pl – web applications at work" ></a>
       <small>Bespoke web applications. Rapid prototyping.</small>
     </h1>
-
-    <h4>Bespoke web applications. <a href='./super-turbo-rapid-prototyping.html'>Super-Turbo-Rapid-Prototyping™</a> with Ruby on Rails and Bootstrap.</h4>
   </header>
 
 
@@ -46,50 +26,8 @@
   <br /> <br /> <br /> <br />
 
   <footer>
-    <div class='row'>
-      <div class='col-lg-6'>
-        <h2>Behind OXOS&hellip;</h2>
-
-        <div class="media">
-          <a class="pull-left" href="http://www.kruszewski.com">
-            <img class='img-circle' width='64px' height='64px' src='./images/wojtek-headshot-128.png' alt='Wojtek Kruszewski'>
-          </a>
-          <div class="media-body">
-            <p>
-              there's <a href="http://www.kruszewski.com" class="">Wojtek Kruszewski</a> &amp; friends.
-            </p>
-        </div>
-      </div>
-    </div>
-
-    <div class='col-lg-6'>
-      <h2>Supporting</h2>
-
-      <a title="Free Software Foundation Europe" href="http://fsfe.org/"><img src='./images/logo-fsfe.png' alt='Free Software Foundation Europe' height='45' /></a>
-      <a title="Electronic Frontier Foundation" href="https://supporters.eff.org/donate"><img src="./images/logo-eff.png" alt="Electronic Frontier Foundation" /></a>
-      <a title="Polish Humanitarian Action - Polska Akcja Humanitarna" href="http://www.pah.org.pl/wspieraj-nas/182"><img src="./images/logo-pah.png" alt="Polish Humanitarian Action - Polska Akcja Humanitarna" /></a>
-      <a title="International Child Care Fund via Vim" href="http://www.vim.org/sponsor/index.php"><img src="./images/logo-vim.svg" height="45px" alt="VIM" /></a>
-    </div>
   </footer>
 </div>
-
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script>
-  function trackOutboundLink(event){
-    var url = event.currentTarget.href;
-    try {
-      _gaq.push(['_trackEvent', 'Outbound Links' , url]);
-    } catch(err){}
-
-    setTimeout(function() {
-      document.location.href = url;
-    }, 100);
-
-    return false;
-  }
-
-  $(document).on('click', 'a[href]', trackOutboundLink);
-</script>
 
 </body>
 </html>
